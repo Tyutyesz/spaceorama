@@ -20,6 +20,7 @@ module.exports = {
         publicPath: '/',
     },
     resolve: {
+        symlinks: true,
         modules: [
             'node_modules',
             path.resolve(__dirname, 'src'),
