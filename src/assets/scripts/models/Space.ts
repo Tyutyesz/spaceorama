@@ -10,7 +10,6 @@ class Space {
         this.stage = stage;
         this.tilingSprite = new Pixi.TilingSprite(this.bgTexture, width, height);
         this.stage.addChild(this.tilingSprite);
-        console.log(this.tilingSprite);
     }
 
     animateSpace() {
